@@ -1,0 +1,10 @@
+1、初始化：git init
+2、添加文件：git add file.txt
+	添加到缓存区
+3、提交：git commit -m "更新说明"
+	提交到数据库
+4、查看日志：git log --pretty=oneline 或 git log 
+5、版本切换：git reset --hard commit_id 
+	切换到当前版本：git reset --hard HEAD
+	查看命令历史：git reflog
+6、查看状态：git status
